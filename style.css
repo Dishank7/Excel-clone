@@ -1,0 +1,90 @@
+*{
+    margin : 0;
+    box-sizing: border-box;
+   
+}
+
+#table-scroll{
+    position: relative;
+    overflow: scroll;
+    border: 1px solid black;
+    background-color: #ecf0f1;
+    height: calc( 98vh - 3rem - 3rem - 2rem - 3rem );
+}
+
+input[type="color" ]  {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+input[type = "file"]{
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+   
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.color-picker-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+/* Position the input relative to the wrapper */
+
+
+table {
+    border-collapse: collapse;
+   
+}
+
+th,
+td {
+    min-width: 80px;
+    border: 1px solid #333;
+    /* height: 10px; */
+}
+
+td {
+    outline: none;
+}
+.btn-nav{
+    height: 3rem;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    gap: 10px;
+}
+.btn-nav > button{
+    border: none;
+    width: 30px;
+}
+h1{
+    margin: 5px;
+}
+nav{
+   
+    height: 3rem;
+    background-color: #218c74;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+    gap: 10px;
+}
+nav > span{
+    font-size: 18px;
+    padding: 2px 2px 0px 2px;
+}
+#home{
+    background-color: rgb(241,242,246);
+    color: rgb(33,140,116);
+}
+#selectCell{
+    margin: 10px;
+}
